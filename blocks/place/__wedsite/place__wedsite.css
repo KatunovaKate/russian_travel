@@ -1,0 +1,14 @@
+.place__wedsite {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+@media all and (max-width: 575px) {
+    .place__wedsite {
+      padding-right: 16px;
+      padding-left: 16px;
+      align-self: flex-start;
+    }
+  } 
+

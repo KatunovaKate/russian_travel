@@ -1,0 +1,11 @@
+.place__image {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+@media all and (max-width: 430px) {
+    .place__image {
+     padding-bottom: 32px;
+    }
+}

@@ -1,0 +1,10 @@
+.cover__link {
+    text-decoration: none;
+    position: relative;
+}
+
+.cover__link:hover.cover__image {
+    background: #2A2C2F;
+    opacity: 0.8;
+    transition: 0.35s;
+}

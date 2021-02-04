@@ -1,0 +1,24 @@
+.place__title {
+  margin: 0;
+  display: flex;
+  align-items: flex-end;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+  color: #FFFFFF;
+}
+
+@media all and (max-width: 768px) {
+  .place__title {
+    font-size: 42px;
+  }
+} 
+
+@media all and (max-width: 575px) {
+  .place__title {
+    font-size: 32px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+} 

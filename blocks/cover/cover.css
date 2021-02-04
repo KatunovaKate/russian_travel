@@ -1,0 +1,36 @@
+.cover {
+    display: flex;
+    min-height: 740px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 92px;
+    background-image: url(../../images/cover__image.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: auto;
+    max-width: 1084px;
+    background-position: center;
+    opacity: 0.65;
+}
+
+.cover__image:hover {
+    background: #2A2C2F;
+    opacity: 0.8;
+}
+
+
+@media all and (max-width: 770px) {
+    .cover {
+        min-height: 480px;
+        margin-top: 90px;
+    }
+  } 
+
+  @media all and (max-width: 450px) {
+    .cover {
+        min-height: 200px;
+        margin-top: 66px;
+    }
+  } 
