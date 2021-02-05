@@ -1,0 +1,6 @@
+@media all and (max-width: 375px) {
+    .header__image {
+        width: 86%;
+        height: auto;
+    }
+} 
